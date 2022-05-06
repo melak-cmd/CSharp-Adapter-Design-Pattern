@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Framework.BusinessObjectLayer.BusinessObjects.ValidatableObject&lt;T&gt;" Collapsed="true">
+    <Position X="0.5" Y="3.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ValidatableObject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Framework.BOBase" Collapsed="true">
+    <Position X="0.5" Y="4.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BOBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Framework.BusinessObjectLayer.BusinessObjects.ValidatableObject" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <NestedTypes>
+      <Delegate Name="Framework.BusinessObjectLayer.BusinessObjects.ValidatableObject.StateChangedEventHandler" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>ValidatableObject.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAQABKCgAAAUAEQAQAAAAAAAAABAgAAA=</HashCode>
+      <FileName>ValidatableObject.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Framework.BusinessObjectLayer.BusinessObjects.NotifyingObject" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAACAAAAQAIAQAAQIQgAAAAAAEAAAAAEAAEAA=</HashCode>
+      <FileName>NotifyingObject.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Framework.BusinessObjectLayer.Validation.Validation&lt;T&gt;" Collapsed="true">
+    <Position X="3.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Validation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Framework.BusinessObjectLayer.Validation.Validation" Collapsed="true">
+    <Position X="3.5" Y="0.5" Width="1.5" />
+    <NestedTypes>
+      <Delegate Name="Framework.BusinessObjectLayer.Validation.Validation.ValidationChangedEventHandler" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Validation.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AABAAEAAAAAAAAABAAAAAQwAAAAAAAAAAgAAABAQAAA=</HashCode>
+      <FileName>Validation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="Framework.EntityStateEnum" Collapsed="true">
+    <Position X="6" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>EntityStateEnum.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

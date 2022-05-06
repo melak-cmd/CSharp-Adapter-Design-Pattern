@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Adapter.Adapter" Collapsed="true">
+    <Position X="9.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAKAAAAAAAAABAAAAAAAAAAAAEAA=</HashCode>
+      <FileName>Adapter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Adapter.BusinessObjects.CalendarBo" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAQAEAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>BusinessObjects.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Adapter.BusinessObjects.RentalRecordBo" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="7.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gQAAAAAEAAAAIAAAAAAAAAAAAAAAAAAAAAAQAEAAAAA=</HashCode>
+      <FileName>BusinessObjects.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Adapter.BusinessObjects.AdditionalInfoBo" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>BusinessObjects.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Adapter.DataObjects.AdditionalInfoDto" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="11.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>DataTransfertObjects.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Adapter.DataObjects.RentalRecordDto" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="2.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAACAAAAAAQAEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DataTransfertObjects.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Framework.BusinessObjectLayer.BusinessObjects.ValidatableObject" Collapsed="true">
+    <Position X="3.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="Adapter.DataContracts.ICContract" Collapsed="true">
+    <Position X="9.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>DataContracts.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Adapter.DataContracts.IRentalRecordContract" Collapsed="true">
+    <Position X="9.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAQAEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DataContracts.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
